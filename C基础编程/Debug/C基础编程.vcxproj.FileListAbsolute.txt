@@ -1,0 +1,2 @@
+F:\cppworkspace\C基础编程\Debug\C基础编程.exe
+F:\cppworkspace\C基础编程\Debug\C基础编程.pdb
