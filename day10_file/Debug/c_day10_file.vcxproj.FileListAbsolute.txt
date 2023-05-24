@@ -1,0 +1,2 @@
+F:\cppworkspace\c_day10_file\Debug\c_day10_file.exe
+F:\cppworkspace\c_day10_file\Debug\c_day10_file.pdb
