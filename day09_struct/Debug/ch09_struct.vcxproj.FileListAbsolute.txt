@@ -1,0 +1,2 @@
+F:\cppworkspace\ch09_struct\Debug\ch09_struct.exe
+F:\cppworkspace\ch09_struct\Debug\ch09_struct.pdb
