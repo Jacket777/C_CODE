@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{57f17ff3-f4a8-4409-8cfb-1a12eea9bb11}</ProjectGuid>
+    <RootNamespace>C基础编程</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\ch09_struct\code00_结构体变量定义与初始化.c" />
+    <ClCompile Include="..\ch09_struct\code01_结构体成员使用.c" />
+    <ClCompile Include="..\ch09_struct\code02_结构体数组.c" />
+    <ClCompile Include="..\ch09_struct\code03结构体嵌套.c" />
+    <ClCompile Include="..\ch09_struct\code04结构体赋值.c" />
+    <ClCompile Include="..\ch09_struct\code0501结构体指针.c" />
+    <ClCompile Include="..\ch09_struct\code0502结构体与指针.c" />
+    <ClCompile Include="..\ch09_struct\code0503结构体与指针.c" />
+    <ClCompile Include="..\ch09_struct\code0601结构体作为函数参数.c" />
+    <ClCompile Include="..\ch09_struct\code07共用体使用.c" />
+    <ClCompile Include="..\ch09_struct\code08枚举的使用.c" />
+    <ClCompile Include="..\ch09_struct\code09tydedef使用.c" />
+    <ClCompile Include="..\c_day10_file\code01文件的打开与关闭.c" />
+    <ClCompile Include="..\c_day10_file\code02文件读取和写.c" />
+    <ClCompile Include="..\c_day10_file\code03文件的加密与解密.c" />
+    <ClCompile Include="..\c_day10_file\code04文件的行读写.c" />
+    <ClCompile Include="..\c_day10_file\code05四则运算.c" />
+    <ClCompile Include="..\c_day10_file\code06四则运算结果.c" />
+    <ClCompile Include="..\c_day10_file\code07_文件格式化读写.c" />
+    <ClCompile Include="..\c_day10_file\code08_大文件排序.c" />
+    <ClCompile Include="..\c_day10_file\code09_大文件排序02.c" />
+    <ClCompile Include="..\c_day10_file\code10_文件块读写.c" />
+    <ClCompile Include="..\c_day10_file\code11_文件读写结构体.c" />
+    <ClCompile Include="..\day02\code04_常量与变量.c" />
+    <ClCompile Include="..\day02\code03_宏定义常量.c" />
+    <ClCompile Include="..\day02\code06_整型与进制.c" />
+    <ClCompile Include="..\day02\code07_整型与输入.c" />
+    <ClCompile Include="..\day02\code08_整型与范围.c" />
+    <ClCompile Include="..\day02\code09_字符与整型.c" />
+    <ClCompile Include="..\day02\code10_浮点数使用.c" />
+    <ClCompile Include="..\day03\code01_数组与外部变量.c" />
+    <ClCompile Include="..\day03\code02_输出附加格式.c" />
+    <ClCompile Include="..\day03\code03_输入方法.c" />
+    <ClCompile Include="..\day03\code04_算术运算符.c" />
+    <ClCompile Include="..\day03\code05_赋值运算符.c" />
+    <ClCompile Include="..\day03\code06_比较运算符.c" />
+    <ClCompile Include="..\day03\code07_逻辑运算符.c" />
+    <ClCompile Include="..\day03\code08_类型转换.c" />
+    <ClCompile Include="..\day03\code09_IF表达式.c" />
+    <ClCompile Include="..\day03\code10_比较大小.c" />
+    <ClCompile Include="..\day03\code11_三目运算符.c" />
+    <ClCompile Include="..\day03\code12_switch使用.c" />
+    <ClCompile Include="..\day03\code13_while使用规范.c" />
+    <ClCompile Include="..\day03\code14_doWhile使用.c" />
+    <ClCompile Include="..\day03\code15_FOR表达式.c" />
+    <ClCompile Include="..\day03\code16_FOR嵌套循环.c" />
+    <ClCompile Include="..\day04\code01_跳转基本使用.c" />
+    <ClCompile Include="..\day04\code02_数组定义与使用.c" />
+    <ClCompile Include="..\day04\code03_数组定义使用.c" />
+    <ClCompile Include="..\day04\code04_一维数组使用.c" />
+    <ClCompile Include="..\day04\code05_数组逆置.c" />
+    <ClCompile Include="..\day04\code06_排序算法.c" />
+    <ClCompile Include="..\day04\code07_二维数组定义.c" />
+    <ClCompile Include="..\day04\code08_多维数组求平均.c" />
+    <ClCompile Include="..\day04\code09_多维数组使用.c" />
+    <ClCompile Include="..\day04\code10_字符数组使用.c" />
+    <ClCompile Include="..\day04\code11_字符串输入输出.c" />
+    <ClCompile Include="..\day04\code12_strlen的使用.c" />
+    <ClCompile Include="..\day05\code01_指针变量定义与使用.c" />
+    <ClCompile Include="..\day05\code01_随机数的使用.c" />
+    <ClCompile Include="..\day05\code02_函数的定义与使用.c" />
+    <ClCompile Include="..\day05\code03_字符串比较.c" />
+    <ClCompile Include="..\day05\code04_各类函数演示.c" />
+    <ClCompile Include="..\day05\code05_函数的声明.c" />
+    <ClCompile Include="..\day05\code06_main与exit函数.c" />
+    <ClCompile Include="..\day05\code07_多文件编程.c" />
+    <ClCompile Include="..\day07_指针\code01_指针变量的定义与使用.c" />
+    <ClCompile Include="..\day07_指针\code02_通过指针修改变量值.c" />
+    <ClCompile Include="..\day07_指针\code03_指针与数组.c" />
+    <ClCompile Include="..\day07_指针\code04_多级指针.c" />
+    <ClCompile Include="..\day07_指针\code05_指针和函数.c" />
+    <ClCompile Include="..\day07_指针\code06_数组名作参数.c" />
+    <ClCompile Include="..\day07_指针\code07_指针作函数返回值.c" />
+    <ClCompile Include="..\day07_指针\code08_字符指针.c" />
+    <ClCompile Include="..\day07_指针\code09_字符指针作参数.c" />
+    <ClCompile Include="..\day07_指针\code10_const修饰指针变量.c" />
+    <ClCompile Include="..\day07_指针\code11_指针数组作为main函数形参.c" />
+    <ClCompile Include="..\day07_指针\code12_字符串应用模型str.c" />
+    <ClCompile Include="..\day07_指针\code13_字符串应用模型两头堵.c" />
+    <ClCompile Include="..\day07_指针\code14_字符串处理函数.c" />
+    <ClCompile Include="..\day08_内存管理\code01_局部变量.c" />
+    <ClCompile Include="..\day08_内存管理\code02_静态局部变量.c" />
+    <ClCompile Include="..\day08_内存管理\code03_存储类型总结.c" />
+    <ClCompile Include="..\day08_内存管理\code04_内存操作函数.c" />
+    <ClCompile Include="..\day08_内存管理\code05_堆区内存分配和释放.c" />
+    <ClCompile Include="..\day08_内存管理\code06_内存分区代码分析.c" />
+    <ClCompile Include="..\day11_english\day11_english.cpp" />
+    <ClCompile Include="code01_入门.c" />
+    <ClCompile Include="code02_system使用.c" />
+    <ClCompile Include="code05_简单计算.c" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,5 @@
+﻿  code06_内存分区代码分析.c
+F:\cppworkspace\day08_内存管理\code06_内存分区代码分析.c(27,21): warning C4013: “malloc”未定义；假设外部返回 int
+F:\cppworkspace\day08_内存管理\code06_内存分区代码分析.c(69,7): warning C4013: “free”未定义；假设外部返回 int
+F:\cppworkspace\day08_内存管理\code06_内存分区代码分析.c(6): warning C4172: 返回局部变量或临时变量的地址: a
+  day08_内存管理.vcxproj -> F:\cppworkspace\day08_内存管理\Debug\day08_内存管理.exe

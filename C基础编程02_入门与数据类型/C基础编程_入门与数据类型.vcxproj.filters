@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="资源文件\9.字符串格式化输入与输出">
+      <UniqueIdentifier>{cc856b2b-4789-4b14-bc55-4e5cdc299bd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\8.类型限定符">
+      <UniqueIdentifier>{abc0b39d-e523-41df-a80b-5e164fac558a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\7.数值存储形式">
+      <UniqueIdentifier>{41c5afa5-3522-4b70-b915-947db0836327}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\6.进制">
+      <UniqueIdentifier>{f55fc639-ef0a-44a6-93b4-759806d0b11d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\5.浮点数">
+      <UniqueIdentifier>{f449deae-22ef-4dff-90fc-2c4e3f229917}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\4.字符型">
+      <UniqueIdentifier>{516d6068-9b53-43a9-b5c2-ec60b6563808}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\3.sizeof">
+      <UniqueIdentifier>{f6d060ac-6755-465d-ab32-51aaae9fd6cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\2.整型">
+      <UniqueIdentifier>{6bc9305f-459b-4e1f-9fb7-bd8e0eb9f5a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\1.变量与常量">
+      <UniqueIdentifier>{e1d5d701-2cdf-41c6-9075-de4abad3f9da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\0.入门">
+      <UniqueIdentifier>{7962b813-87bb-437e-9c16-c859ca65581e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="09.05输入方法.c">
+      <Filter>资源文件\9.字符串格式化输入与输出</Filter>
+    </ClCompile>
+    <ClCompile Include="09.04输出格式控制.c">
+      <Filter>资源文件\9.字符串格式化输入与输出</Filter>
+    </ClCompile>
+    <ClCompile Include="09.03格式化输入GetChar.c">
+      <Filter>资源文件\9.字符串格式化输入与输出</Filter>
+    </ClCompile>
+    <ClCompile Include="09.02格式化输出Putchar.c">
+      <Filter>资源文件\9.字符串格式化输入与输出</Filter>
+    </ClCompile>
+    <ClCompile Include="09.01字符串与字符区别.c">
+      <Filter>资源文件\9.字符串格式化输入与输出</Filter>
+    </ClCompile>
+    <ClCompile Include="08.类型限定符extern.c">
+      <Filter>资源文件\8.类型限定符</Filter>
+    </ClCompile>
+    <ClCompile Include="07.02数值溢出.c">
+      <Filter>资源文件\7.数值存储形式</Filter>
+    </ClCompile>
+    <ClCompile Include="07.01补码.c">
+      <Filter>资源文件\7.数值存储形式</Filter>
+    </ClCompile>
+    <ClCompile Include="06.01进制.c">
+      <Filter>资源文件\6.进制</Filter>
+    </ClCompile>
+    <ClCompile Include="05.02浮点数使用.c">
+      <Filter>资源文件\5.浮点数</Filter>
+    </ClCompile>
+    <ClCompile Include="05.01浮点型.c">
+      <Filter>资源文件\5.浮点数</Filter>
+    </ClCompile>
+    <ClCompile Include="Code04_03字符与整型.c">
+      <Filter>资源文件\4.字符型</Filter>
+    </ClCompile>
+    <ClCompile Include="Code04_01字符变量定义与输出.c">
+      <Filter>资源文件\4.字符型</Filter>
+    </ClCompile>
+    <ClCompile Include="Code04_02字符变量的输入.c">
+      <Filter>资源文件\4.字符型</Filter>
+    </ClCompile>
+    <ClCompile Include="Code04_04转义字符.c">
+      <Filter>资源文件\4.字符型</Filter>
+    </ClCompile>
+    <ClCompile Include="code08_sizeof使用.c">
+      <Filter>资源文件\3.sizeof</Filter>
+    </ClCompile>
+    <ClCompile Include="code08_整型范围.c">
+      <Filter>资源文件\2.整型</Filter>
+    </ClCompile>
+    <ClCompile Include="code08_有无符号数区别.c">
+      <Filter>资源文件\2.整型</Filter>
+    </ClCompile>
+    <ClCompile Include="code07_整型与输入.c">
+      <Filter>资源文件\2.整型</Filter>
+    </ClCompile>
+    <ClCompile Include="code06_整型与进制.c">
+      <Filter>资源文件\2.整型</Filter>
+    </ClCompile>
+    <ClCompile Include="code05_常量与变量.c">
+      <Filter>资源文件\1.变量与常量</Filter>
+    </ClCompile>
+    <ClCompile Include="code05_变量使用实例.c">
+      <Filter>资源文件\1.变量与常量</Filter>
+    </ClCompile>
+    <ClCompile Include="code05_变量声明与定义.c">
+      <Filter>资源文件\1.变量与常量</Filter>
+    </ClCompile>
+    <ClCompile Include="code04_宏定义常量.c">
+      <Filter>资源文件\1.变量与常量</Filter>
+    </ClCompile>
+    <ClCompile Include="code03_汇编代码.c">
+      <Filter>资源文件\0.入门</Filter>
+    </ClCompile>
+    <ClCompile Include="code02_system函数使用.c">
+      <Filter>资源文件\0.入门</Filter>
+    </ClCompile>
+    <ClCompile Include="code01_HelloWorld.c">
+      <Filter>资源文件\0.入门</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

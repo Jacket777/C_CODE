@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\day07_指针\code01_指针变量的定义与使用.c">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\day07_指针\code02_通过指针修改变量值.c">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\day07_指针\code03_指针与数组.c">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\day07_指针\code04_多级指针.c">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\day07_指针\code14_字符串处理函数.c">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\day07_指针\code0501_指针和函数.c">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\day07_指针\code0502_数组名作参数.c">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\day07_指针\code0503_指针作函数返回值.c">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\day07_指针\code0601_字符指针.c">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\day07_指针\code0602_字符指针作参数.c">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\day07_指针\code0603_const修饰指针变量.c">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\day07_指针\code0604_指针数组作为main函数形参.c">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\day07_指针\code0605_字符串应用模型.c">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code0606字符串处理函数.c">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

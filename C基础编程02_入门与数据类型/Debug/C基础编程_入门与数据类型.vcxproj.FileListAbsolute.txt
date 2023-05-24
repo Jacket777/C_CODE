@@ -1,0 +1,2 @@
+F:\cppworkspace\C基础编程_入门与数据类型\Debug\C基础编程_入门与数据类型.exe
+F:\cppworkspace\C基础编程_入门与数据类型\Debug\C基础编程_入门与数据类型.pdb
