@@ -1,0 +1,2 @@
+F:\cppworkspace\day04\Debug\day04.exe
+F:\cppworkspace\day04\Debug\day04.pdb
